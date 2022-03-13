@@ -8,7 +8,7 @@
 #pragma comment(lib,"Step2Obj.lib")
 using namespace std;
 
-extern "C" _declspec(dllimport) void step2simplifiedmesh(const std::string & fileName, int simplifyFlag, double percent, const char* tmpPath, const char* outPath);
+extern "C" _declspec(dllimport) void step2simplifiedmesh(const char*  fileName, int simplifyFlag, double percent, const char* tmpPath, const char* outPath);
 
 int main() {
 	step2simplifiedmesh("../file/231.step", 1, 0.999, "../res/tmp.obj", "../res/outer.stl");
