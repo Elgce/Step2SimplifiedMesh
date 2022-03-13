@@ -1,2 +1,7 @@
-﻿    正在创建库 E:\GMV\finaltest\x64\Debug\Project1.lib 和对象 E:\GMV\finaltest\x64\Debug\Project1.exp
+﻿  main.cpp
+E:\GMV\finaltest\Project1\Shape.h(7,1): warning C4275: 非 dll 接口 class“MovableGLM”用作 dll 接口 class“Shape”的基
+E:\GMV\finaltest\Project1\MovableGLM.h(5): message : 参见“MovableGLM”的声明
+E:\GMV\finaltest\Project1\Shape.h(6): message : 参见“Shape”的声明
+E:\GMV\finaltest\Project1\step2spedstl.h(10,33): warning C4091: “__declspec(dllimport)”: 没有声明变量时忽略“Shape”的左侧
+    正在创建库 E:\GMV\finaltest\x64\Debug\Project1.lib 和对象 E:\GMV\finaltest\x64\Debug\Project1.exp
   Project1.vcxproj -> E:\GMV\finaltest\x64\Debug\Project1.exe
